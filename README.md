@@ -1,2 +1,0 @@
-# FullExpats
-FullexpatservicesAmsterdam.com

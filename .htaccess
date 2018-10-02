@@ -1,0 +1,28 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/css
+RewriteCond %{REQUEST_URI} !^/js
+RewriteCond %{REQUEST_URI} !^/images
+RewriteCond %{REQUEST_URI} !^/fonts
+
+RewriteRule ^expat-life-and-homesickness/?$ expat-life.php
+RewriteRule ^travel-tips-in-the-netherlands-and-europe/?$ travel-tips.php
+RewriteRule ^job-security-in-the-netherlands/?$ job-security.php
+
+RewriteRule ^about-us/?$ about-us.php
+RewriteRule ^services/?$ services.php
+RewriteRule ^blog/?$ blog.php
+RewriteRule ^contact/?$ contact.php
+RewriteRule ^housing/?$ housing.php
+RewriteRule ^tax-and-paperwork/?$ tax-and-paperwork.php
+RewriteRule ^schooling-and-family/?$ schooling-and-family.php
+RewriteRule ^soft-landing/?$ soft-landing.php
+
+
+
+
+
+
+
+RewriteRule ^/?$ index.php
